@@ -72,7 +72,7 @@ var started = false;
 level = 1;
 $(document).on("keydown",function(){
     if(started == false){
-        firstPress = true;
+        started = true;
         nextSequence();
     }
 })
